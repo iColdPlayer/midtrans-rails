@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Midtrans gateway for Spree"
   spec.description   = "Midtrans payment gateway for Spree framework"
-  spec.homepage      = "https://github.com/dimasjt/spree_midtrans_gateway"
+  spec.homepage      = "https://github.com/icoldplayer/spree-midtrans-gateway"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split("\n")
@@ -20,12 +20,12 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = ">= 2.5.1"
 
-  spec.add_dependency "spree_core", "~> 3.1", "< 4.0"
+  spec.add_dependency "spree_core", "~> 4.0"
   spec.add_dependency "veritrans", "~> 2.2"
 
   spec.add_development_dependency "bundler", "~> 1.15"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3"
   spec.add_development_dependency "rubocop", "~> 0.50"
-  spec.add_development_dependency "rails", "~> 4", "< 5"
+  spec.add_development_dependency "rails", "~> 6"
 end
